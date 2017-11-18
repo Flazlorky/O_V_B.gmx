@@ -54,47 +54,98 @@ movespeed = 4;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Get The player's input
-key_right = keyboard_check(vk_right);
-key_left = -keyboard_check(vk_left);
-key_jump = keyboard_check_pressed(vk_up);
-
-//React to Inputs
-move = key_left + key_right;
-hsp = move * movespeed;
-if (vsp &lt; 10) vsp += grav; 
-
-if (place_meeting(x,y+1,obj_Ground))
-{
-    vsp = key_jump * -jumpspeed
-}
-//Horizontal Collision
-if (place_meeting(x+hsp,y,obj_Ground))
-{
-    while(!place_meeting(x+sign(hsp),y,obj_Ground))
-    {
-        x +=sign(hsp);
-    }
-    hsp = 0;
-
-
-}
-
-x += hsp;
-//Verticle Collision
-if (place_meeting(x,y+vsp,obj_Ground))
-{
-    while(!place_meeting(x,y+sign(vsp),obj_Ground))
-    {
-        y +=sign(vsp);
-    }
-    vsp = 0;
-    }
-  
-
-
-
-y += vsp;
+            <string></string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_Ground">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///collision
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="5" enumb="39">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>phy_position_x += 4;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="5" enumb="38">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>phy_position_y -= 4;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="5" enumb="37">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>phy_position_x -= 4;
 </string>
           </argument>
         </arguments>
@@ -125,7 +176,7 @@ y += vsp;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-16</string>
+            <string>-25</string>
           </argument>
         </arguments>
       </action>
