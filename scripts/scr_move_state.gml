@@ -4,12 +4,12 @@
 scr_get_input();
  
 if (dash_key) {
-if dashcd != true && obj_player_stats.stamina >= 5{
+if dashcd != true && obj_Player_stats.stamina >= 5{
     image_index = 0;
     state = scr_dash_state;
     alarm[0] =  room_speed/4;
-    obj_player_stats.alarm[0] = room_speed;
-    obj_player_stats.stamina -= 5;
+    obj_Player_stats.alarm[0] = room_speed;
+    obj_Player_stats.stamina -= 5;
     }
  }
  

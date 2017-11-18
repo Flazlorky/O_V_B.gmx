@@ -16,15 +16,15 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\script0.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\obj_Grass</object>
     <object>objects\obj_Ground</object>
     <object>objects\obj_Player</object>
     <object>objects\obj_Lifeform_Parent</object>
-    <object>objects\obj_Slime</object>
+    <objects name="Enemies">
+      <object>objects\obj_Slime</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_StartRoom</room>
