@@ -28,7 +28,7 @@
             <string>///Initialize Lifeform
 
 //Don't allow image rotation
-//phy_fixed_rotation = true;
+phy_fixed_rotation = true;
 //hp = 3;
 </string>
           </argument>
