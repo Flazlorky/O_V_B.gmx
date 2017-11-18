@@ -26,7 +26,9 @@
     <objects name="Enemies">
       <object>objects\obj_Slime</object>
     </objects>
-    <object>objects\obj_bullet</object>
+    <objects name="Attacks">
+      <object>objects\obj_bullet</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_StartRoom</room>
