@@ -18,7 +18,7 @@
     <object>objects\obj_Player</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_Start</room>
+    <room>rooms\rm_StartRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
