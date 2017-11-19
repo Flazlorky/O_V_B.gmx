@@ -12,11 +12,11 @@
     <sprite>sprites\spr_Ground</sprite>
     <sprite>sprites\spr_Grass</sprite>
     <sprite>sprites\spr_Player</sprite>
-    <sprite>sprites\spr_Lifeform_Parent</sprite>
+    <sprite>sprites\sprite6</sprite>
     <sprites name="Enemies">
       <sprite>sprites\spr_Slime</sprite>
     </sprites>
-    <sprite>sprites\spr_PowerUpBlock</sprite>
+    <sprite>sprites\spr_Attack</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -30,6 +30,7 @@
     </objects>
     <objects name="Attacks">
       <object>objects\obj_PowerupPlatform</object>
+      <object>objects\obj_Attack</object>
     </objects>
     <objects name="Parent Objects">
       <object>objects\obj_Lifeform_Parent</object>

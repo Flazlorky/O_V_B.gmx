@@ -3,7 +3,7 @@
   <spriteName>spr_Player</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10</depth>
   <persistent>0</persistent>
   <parentName>obj_Lifeform_Parent</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -127,6 +127,36 @@ depth = -y;
           <argument>
             <kind>1</kind>
             <string>phy_position_x -= 4;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="5" enumb="17">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>var xx = 0;
+var yy = 0;
+  xx = x - 10;
+  yy = y + 2; 
+var damage = instance_create(xx, yy, obj_Attack);
+//damage.damage = obj_player_stats.attack;
+damage.creator = id;
+
 </string>
           </argument>
         </arguments>
