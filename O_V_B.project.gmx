@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_Box</sprite>
     <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_PowerupPlatform</sprite>
     <sprite>sprites\spr_Ground</sprite>
     <sprite>sprites\spr_Grass</sprite>
     <sprite>sprites\spr_Player</sprite>
@@ -23,12 +24,14 @@
     <object>objects\obj_Grass</object>
     <object>objects\obj_Ground</object>
     <object>objects\obj_Player</object>
-    <object>objects\obj_Lifeform_Parent</object>
     <objects name="Enemies">
       <object>objects\obj_Slime</object>
     </objects>
     <objects name="Attacks">
-      <object>objects\obj_bullet</object>
+      <object>objects\obj_PowerupPlatform</object>
+    </objects>
+    <objects name="Parent Objects">
+      <object>objects\obj_Lifeform_Parent</object>
     </objects>
     <object>objects\obj_Box</object>
   </objects>
