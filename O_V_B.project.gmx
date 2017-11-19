@@ -11,16 +11,18 @@
     <sprite>sprites\spr_PowerupPlatform</sprite>
     <sprite>sprites\spr_Ground</sprite>
     <sprite>sprites\spr_Grass</sprite>
-    <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Lifeform_Parent</sprite>
     <sprites name="Enemies">
       <sprite>sprites\spr_Slime</sprite>
     </sprites>
-    <sprite>sprites\sprite6</sprite>
     <sprite>sprites\spr_trapBounce</sprite>
     <sprite>sprites\spr_testPlayer</sprite>
     <sprite>sprites\spr_PowerUpBlock</sprite>
     <sprite>sprites\spr_Door</sprite>
+    <sprites name="Player">
+      <sprite>sprites\spr_PlayerRight</sprite>
+      <sprite>sprites\spr_PlayerLeft</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
