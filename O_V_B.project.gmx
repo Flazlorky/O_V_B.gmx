@@ -21,7 +21,28 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_TestOne.gml</script>
+    <scripts name="Player">
+      <script>scripts\scr_Attack_State.gml</script>
+      <script>scripts\scr_Dash_State.gml</script>
+      <script>scripts\scr_Move_State.gml</script>
+      <script>scripts\scr_Teleport_State.gml</script>
+    </scripts>
+    <scripts name="Enemy States">
+      <script>scripts\scr_enemy_Idle_State.gml</script>
+      <script>scripts\scr_enemy_Stall_State.gml</script>
+      <script>scripts\scr_enemy_Wander_State.gml</script>
+      <script>scripts\scr_enemy_Chase_State.gml</script>
+    </scripts>
+    <scripts name="Enemy Helper">
+      <script>scripts\scr_check_for_player.gml</script>
+      <script>scripts\scr_enemy_choose_next_state.gml</script>
+    </scripts>
+    <scripts name="Helper">
+      <script>scripts\scr_smooth_movement.gml</script>
+      <script>scripts\scr_get_face.gml</script>
+      <script>scripts\scr_get_input.gml</script>
+      <script>scripts\scr_chance.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_PowerUpBlock</object>
