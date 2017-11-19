@@ -54,7 +54,7 @@ image_speed = .1;
             <string>/// Damage the player
 if instance_exists(obj_Player){
 
-    instance_destroy();
+    //instance_destroy();
 }
 
 </string>
