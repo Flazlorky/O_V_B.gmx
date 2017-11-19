@@ -6,6 +6,16 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="Player">
+      <sprite>sprites\spr_player_attack_down</sprite>
+      <sprite>sprites\spr_player_attack_right</sprite>
+      <sprite>sprites\spr_player_right</sprite>
+      <sprite>sprites\spr_player_attack_left</sprite>
+      <sprite>sprites\spr_player_attack_up</sprite>
+      <sprite>sprites\spr_player_up</sprite>
+      <sprite>sprites\spr_player_left</sprite>
+      <sprite>sprites\spr_player_down</sprite>
+    </sprites>
     <sprite>sprites\spr_Box</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_PowerupPlatform</sprite>
@@ -18,6 +28,8 @@
     </sprites>
     <sprite>sprites\spr_PowerUpBlock</sprite>
     <sprite>sprites\spr_Door</sprite>
+    <sprite>sprites\spr_player_shadow</sprite>
+    <sprite>sprites\spr_Damage</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -55,12 +67,14 @@
     </objects>
     <objects name="Attacks">
       <object>objects\obj_PowerupPlatform</object>
+      <object>objects\obj_Damage</object>
     </objects>
     <objects name="Parent Objects">
       <object>objects\obj_Lifeform_Parent</object>
     </objects>
     <object>objects\obj_Box</object>
     <object>objects\obj_Door</object>
+    <object>objects\obj_Player_Stats</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_StartRoom</room>

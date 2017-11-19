@@ -57,8 +57,8 @@ switch (sprite_index) {
         break; 
  }
 
-var damage = instance_create(xx, yy, obj_damage);
-damage.damage = obj_player_stats.attack;
+var damage = instance_create(xx, yy, obj_Damage);
+damage.damage = obj_Player_Stats.attack;
 damage.creator = id;
 attacked = true;
 }
