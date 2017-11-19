@@ -22,12 +22,14 @@
     <object>objects\obj_Grass</object>
     <object>objects\obj_Ground</object>
     <object>objects\obj_Player</object>
-    <object>objects\obj_Lifeform_Parent</object>
     <objects name="Enemies">
       <object>objects\obj_Slime</object>
     </objects>
     <objects name="Attacks">
       <object>objects\obj_bullet</object>
+    </objects>
+    <objects name="Parent Objects">
+      <object>objects\obj_Lifeform_Parent</object>
     </objects>
   </objects>
   <rooms name="rooms">
