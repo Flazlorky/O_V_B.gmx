@@ -29,7 +29,7 @@
 
 //Don't allow image rotation
 phy_fixed_rotation = true;
-hp = 3;
+
 </string>
           </argument>
         </arguments>
@@ -55,9 +55,6 @@ hp = 3;
             <string>/// Control depth
 depth = -y;
 
-if (hp &lt;= 0) {
-   instance_destroy();
-}
 </string>
           </argument>
         </arguments>

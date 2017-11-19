@@ -31,73 +31,7 @@ hsp = 0;
 vsp = 0;
 jumpspeed = 4;
 movespeed = 4;
-
-
-
 event_inherited();
-hp = 3;
-spd = 2;
-hspd = 0;
-vspd = 0;
-xaxis = 0;
-yaxis = 0;
-len = 0;
-dir = 0;
-attacked = false;
-image_speed =0;
-scr_get_input();
-state = scr_Move_State;
-face = RIGHT;
-dashcd = false;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="1">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Dash Stall Alarm
-if dashcd = true {
-dashcd = false;
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>state = scr_Move_State;
 </string>
           </argument>
         </arguments>
@@ -121,17 +55,8 @@ dashcd = false;
           <argument>
             <kind>1</kind>
             <string>/// Move player in step event
-if instance_exists(obj_Player) {
+image_speed = .1
 depth = -y;
-script_execute(state);
-//Player death
-if instance_exists(obj_Player){
-if (obj_Player_Stats.hp &lt;= 0){
-    instance_destroy();
-    }
-    }
-}
-
 
 </string>
           </argument>
@@ -236,33 +161,6 @@ if (room_exists(other.new_room)){
         </arguments>
       </action>
     </event>
-    <event eventtype="7" enumb="7">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/// Change back to move_state
-if (state == scr_Attack_State) {
-   state = scr_Move_State;
-   attacked = false;
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
@@ -282,31 +180,6 @@ if (state == scr_Attack_State) {
             <kind>1</kind>
             <string>///Set fixed rotation.
 phy_fixed_rotation = true;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/// Draw player shadow
-//draw_sprite(spr_player_shadow, image_index,x,y);
-draw_self();
 </string>
           </argument>
         </arguments>
