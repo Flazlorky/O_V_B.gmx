@@ -17,6 +17,7 @@
       <sprite>sprites\spr_Slime</sprite>
     </sprites>
     <sprite>sprites\spr_PowerUpBlock</sprite>
+    <sprite>sprites\spr_Door</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -35,9 +36,11 @@
       <object>objects\obj_Lifeform_Parent</object>
     </objects>
     <object>objects\obj_Box</object>
+    <object>objects\obj_Door</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_StartRoom</room>
+    <room>rooms\rm_AnotherRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
