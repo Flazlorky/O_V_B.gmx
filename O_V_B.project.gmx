@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_Box</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_PowerupPlatform</sprite>
     <sprite>sprites\spr_Ground</sprite>
@@ -34,6 +35,7 @@
     <objects name="Parent Objects">
       <object>objects\obj_Lifeform_Parent</object>
     </objects>
+    <object>objects\obj_Box</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_StartRoom</room>
