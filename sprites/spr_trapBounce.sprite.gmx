@@ -9,7 +9,7 @@
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
   <bbox_right>23</bbox_right>
-  <bbox_top>0</bbox_top>
+  <bbox_top>12</bbox_top>
   <bbox_bottom>23</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
@@ -20,6 +20,8 @@
   <width>24</width>
   <height>24</height>
   <frames>
-    <frame index="0">images\spr_Box_0.png</frame>
+    <frame index="0">images\spr_trapBounce_0.png</frame>
+    <frame index="1">images\spr_trapBounce_1.png</frame>
+    <frame index="2">images\spr_trapBounce_2.png</frame>
   </frames>
 </sprite>
