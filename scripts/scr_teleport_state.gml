@@ -46,5 +46,5 @@ phy_position_x += teleport_distance;
 }
 }
 
-state = scr_move_state;
+state = scr_Move_State;
 

@@ -1,10 +1,10 @@
 ///scr_check_for_player();
-if (instance_exists(obj_player)) {
-    var dis = point_distance(x, y, obj_player.x, obj_player.y);
+if (instance_exists(obj_Player)) {
+    var dis = point_distance(x, y, obj_Player.x, obj_Player.y);
     if (dis < sight) {
-        state = scr_enemy_chase_state;
-        targetx = obj_player.x;
-        targety = obj_player.y;
+        state = scr_enemy_Chase_State;
+        targetx = obj_Player.x;
+        targety = obj_Player.y;
     }else {
     scr_enemy_choose_next_state();
 }
