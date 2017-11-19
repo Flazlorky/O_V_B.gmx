@@ -20,6 +20,9 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_TestOne.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_PowerUpBlock</object>
     <object>objects\obj_Grass</object>
