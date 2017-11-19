@@ -198,7 +198,7 @@ draw_self();
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_bullet</object>
+            <object>obj_PowerupPlatform</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -206,7 +206,7 @@ draw_self();
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-25</string>
+            <string>-35</string>
           </argument>
         </arguments>
       </action>

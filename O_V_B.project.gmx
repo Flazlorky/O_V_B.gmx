@@ -6,7 +6,9 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_Box</sprite>
     <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_PowerupPlatform</sprite>
     <sprite>sprites\spr_Ground</sprite>
     <sprite>sprites\spr_Grass</sprite>
     <sprite>sprites\spr_Player</sprite>
@@ -26,11 +28,12 @@
       <object>objects\obj_Slime</object>
     </objects>
     <objects name="Attacks">
-      <object>objects\obj_bullet</object>
+      <object>objects\obj_PowerupPlatform</object>
     </objects>
     <objects name="Parent Objects">
       <object>objects\obj_Lifeform_Parent</object>
     </objects>
+    <object>objects\obj_Box</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_StartRoom</room>
