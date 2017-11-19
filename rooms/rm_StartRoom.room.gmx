@@ -59,7 +59,6 @@
     <instance objName="obj_Ground" x="388" y="480" name="inst_A9A9BBE7" locked="0" code="" scaleX="-20.0322589874268" scaleY="1.67741930484772" colour="4294967295" rotation="0"/>
     <instance objName="obj_Ground" x="64" y="448" name="inst_7E943CD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Ground" x="544" y="512" name="inst_4F45076D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Player" x="128" y="384" name="inst_2634B24C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Ground" x="0" y="416" name="inst_43360276" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Ground" x="32" y="416" name="inst_23E028E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Ground" x="32" y="416" name="inst_CA699F08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -80,9 +79,11 @@
     <instance objName="obj_Box" x="475" y="441" name="inst_4D99985F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Box" x="486" y="416" name="inst_F25A093A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Box" x="498" y="392" name="inst_E077698B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trapBounce" x="39" y="378" name="inst_458D8723" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_testPlayer" x="96" y="352" name="inst_23C20A5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
-  <PhysicsWorld>-1</PhysicsWorld>
+  <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
   <PhysicsWorldRight>1024</PhysicsWorldRight>

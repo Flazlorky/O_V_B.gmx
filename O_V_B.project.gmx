@@ -17,10 +17,13 @@
       <sprite>sprites\spr_Slime</sprite>
     </sprites>
     <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\spr_trapBounce</sprite>
+    <sprite>sprites\spr_testPlayer</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_Box</object>
     <object>objects\obj_Grass</object>
     <object>objects\obj_Ground</object>
     <object>objects\obj_Player</object>
@@ -34,6 +37,8 @@
       <object>objects\obj_Lifeform_Parent</object>
     </objects>
     <object>objects\obj_Box</object>
+    <object>objects\obj_trapBounce</object>
+    <object>objects\obj_testPlayer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_StartRoom</room>
