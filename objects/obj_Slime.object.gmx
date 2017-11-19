@@ -45,14 +45,14 @@ image_speed = .1;
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>other</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
             <string>/// Damage the player
-if instance_exists(obj_player){
+if instance_exists(obj_Player){
 
     instance_destroy();
 }
