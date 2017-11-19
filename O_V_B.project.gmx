@@ -16,11 +16,12 @@
     <sprites name="Enemies">
       <sprite>sprites\spr_Slime</sprite>
     </sprites>
-    <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\spr_PowerUpBlock</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_PowerUpBlock</object>
     <object>objects\obj_Grass</object>
     <object>objects\obj_Ground</object>
     <object>objects\obj_Player</object>
